@@ -16,6 +16,7 @@ public class AppTest {
 		String DriverPath = "F:\\Selenium\\Jar Files\\geckodriver-v0.18.0-win64\\";
 		System.setProperty("webdriver.gecko.driver", DriverPath+"geckodriver.exe");
 		driver = new FirefoxDriver();
+		//Added new comments
 		driver.get("http://only-testing-blog.blogspot.in/");
 		driver.close();
 	}
